@@ -1,0 +1,18 @@
+[package]
+name = "spinspector"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+adw = { version = "0.4.1", package = "libadwaita", features = ["v1_3", "gtk_v4_6"] }
+anyhow = { version = "1.0.71", features = ["backtrace"] }
+async-recursion = "1.0.4"
+atspi = { version = "0.15.1" }
+epoxy = "0.1.0"
+femtovg = { version = "0.7.0", default-features = false }
+gio = { version = "0.17.9", features = ["v2_76"] }
+glib = { version = "0.17.9", features = ["v2_76", "log"] }
+glow = "0.12.1"
+gtk = { version = "0.6.6", package = "gtk4", features = ["gnome_44"] }
+libloading = "0.8.0"
+log = "0.4.18"
